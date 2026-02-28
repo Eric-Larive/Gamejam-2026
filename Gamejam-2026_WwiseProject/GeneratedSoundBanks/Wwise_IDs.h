@@ -22,6 +22,13 @@ namespace AK
         static const AkUniqueID GAME_SCENE = 1983675242U;
     } // namespace GAME_PARAMETERS
 
+    namespace BANKS
+    {
+        static const AkUniqueID INIT = 1355168291U;
+        static const AkUniqueID MUSIC = 3991942870U;
+        static const AkUniqueID SFX = 393239870U;
+    } // namespace BANKS
+
     namespace BUSSES
     {
         static const AkUniqueID MAIN_AUDIO_BUS = 2246998526U;
