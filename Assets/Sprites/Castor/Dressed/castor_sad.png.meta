@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: dc1c97d5c2b028d48b3b4789a122bbd4
+guid: 1f7ddb715e0605b45a66f12ffed0b118
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2687369606110983675
-    second: castor2_0
+      213: -6779579905247508709
+    second: castor_sad_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,16 +96,29 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: castor2_0
+      name: castor_sad_0
       rect:
         serializedVersion: 2
-        x: 266
+        x: 314
         y: 190
-        width: 802
+        width: 754
         height: 637
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bf53d602b647b4520800000000000000
-      internalID: 2687369606110983675
+      spriteID: b178855fef71ae1a0800000000000000
+      internalID: -6779579905247508709
       vertices: []
       indices: 
       edges: []
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      castor2_0: 2687369606110983675
+      castor_sad_0: -6779579905247508709
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
