@@ -3,7 +3,9 @@ using UnityEngine.InputSystem;
 
 public class InputManager : MonoBehaviour
 {
-    void Update()
+    public SpecificClickManager clickManager;
+
+    private void Update()
     {
         if (!Mouse.current.leftButton.wasPressedThisFrame) return;
 
@@ -14,10 +16,9 @@ public class InputManager : MonoBehaviour
         {
             // Only the clicked object handles its toggle
             var clickable = hit.collider.GetComponent<ClickableObject>();
-            if (clickable)
-            {
-                clickable.Toggle();
-            }
+            if (!clickable) return;
+            clickable.Toggle();
+            clickManager.ObjectClicked();
         }
     }
 }

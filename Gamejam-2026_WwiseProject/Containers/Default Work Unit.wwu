@@ -131,7 +131,42 @@
 																<PropertyList>
 																	<Property Name="PropertyName" Type="string" Value="MakeUpGain"/>
 																</PropertyList>
-																<ReferenceList/>
+																<ReferenceList>
+																	<Reference Name="ControlInput">
+																		<ObjectRef Name="Game_Scene" ID="{D3237B69-283B-40F6-BCD7-C6ED2E48A795}" WorkUnitID="{3CFFAA83-6595-4163-9422-D8F3EE00F73A}"/>
+																	</Reference>
+																	<Reference Name="Curve">
+																		<Custom>
+																			<Curve Name="" ID="{F3B4F35F-8BF0-4F8A-9431-D08B5FFBEAAE}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>-96</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>61.34185</XPos>
+																						<YPos>-192</YPos>
+																						<Flags>0</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>74.76138</XPos>
+																						<YPos>0</YPos>
+																						<Flags>0</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>100</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
 															</RTPC>
 														</ObjectList>
 														<ObjectList Name="Sequences">
@@ -178,6 +213,49 @@
 														</AudioFileSource>
 													</ChildrenList>
 													<ObjectLists>
+														<ObjectList Name="RTPC">
+															<RTPC Name="" ID="{74FD8082-E7E0-4655-9B06-069D5122CD3E}" ShortID="433235452">
+																<PropertyList>
+																	<Property Name="PropertyName" Type="string" Value="Volume"/>
+																</PropertyList>
+																<ReferenceList>
+																	<Reference Name="ControlInput">
+																		<ObjectRef Name="Game_Scene" ID="{D3237B69-283B-40F6-BCD7-C6ED2E48A795}" WorkUnitID="{3CFFAA83-6595-4163-9422-D8F3EE00F73A}"/>
+																	</Reference>
+																	<Reference Name="Curve">
+																		<Custom>
+																			<Curve Name="" ID="{90BA85E7-DF5B-4439-B833-82DC90E470BA}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>-200</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>61.34185</XPos>
+																						<YPos>-200</YPos>
+																						<Flags>0</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>76.03934</XPos>
+																						<YPos>0</YPos>
+																						<Flags>0</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>100</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</RTPC>
+														</ObjectList>
 														<ObjectList Name="Sequences">
 															<MusicTrackSequence Name="" ID="{B21AE196-BA5D-4AD3-ACE3-DFC39BD74FB1}">
 																<ObjectLists>
@@ -222,6 +300,49 @@
 														</AudioFileSource>
 													</ChildrenList>
 													<ObjectLists>
+														<ObjectList Name="RTPC">
+															<RTPC Name="" ID="{198965BD-76B3-4ADC-9052-D2F967836BF9}" ShortID="478957949">
+																<PropertyList>
+																	<Property Name="PropertyName" Type="string" Value="Volume"/>
+																</PropertyList>
+																<ReferenceList>
+																	<Reference Name="ControlInput">
+																		<ObjectRef Name="Game_Scene" ID="{D3237B69-283B-40F6-BCD7-C6ED2E48A795}" WorkUnitID="{3CFFAA83-6595-4163-9422-D8F3EE00F73A}"/>
+																	</Reference>
+																	<Reference Name="Curve">
+																		<Custom>
+																			<Curve Name="" ID="{36E09273-6033-45C8-B6DF-75690B6BE709}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>-200</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>24.28115</XPos>
+																						<YPos>-200</YPos>
+																						<Flags>0</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>24.28215</XPos>
+																						<YPos>0</YPos>
+																						<Flags>0</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>100</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</RTPC>
+														</ObjectList>
 														<ObjectList Name="Sequences">
 															<MusicTrackSequence Name="" ID="{18AAC7E1-E56C-4C4F-8C5C-421D3133DC0D}">
 																<ObjectLists>
@@ -393,6 +514,49 @@
 														</AudioFileSource>
 													</ChildrenList>
 													<ObjectLists>
+														<ObjectList Name="RTPC">
+															<RTPC Name="" ID="{CD3069AE-2680-4CAA-A3FC-CD4B128ACDBD}" ShortID="689666581">
+																<PropertyList>
+																	<Property Name="PropertyName" Type="string" Value="Volume"/>
+																</PropertyList>
+																<ReferenceList>
+																	<Reference Name="ControlInput">
+																		<ObjectRef Name="Game_Scene" ID="{D3237B69-283B-40F6-BCD7-C6ED2E48A795}" WorkUnitID="{3CFFAA83-6595-4163-9422-D8F3EE00F73A}"/>
+																	</Reference>
+																	<Reference Name="Curve">
+																		<Custom>
+																			<Curve Name="" ID="{F048A3FF-629F-4F39-81BF-833E333AC0BE}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>-200</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>40.89457</XPos>
+																						<YPos>-200</YPos>
+																						<Flags>0</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>49.20228</XPos>
+																						<YPos>-0</YPos>
+																						<Flags>0</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>100</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</RTPC>
+														</ObjectList>
 														<ObjectList Name="Sequences">
 															<MusicTrackSequence Name="" ID="{0446420D-3DA9-4607-9A0E-874A79D9E4CB}">
 																<ObjectLists>
@@ -549,6 +713,49 @@
 														</AudioFileSource>
 													</ChildrenList>
 													<ObjectLists>
+														<ObjectList Name="RTPC">
+															<RTPC Name="" ID="{E67F2B8A-8D1D-49FA-9906-EEE6F9969C76}" ShortID="888149233">
+																<PropertyList>
+																	<Property Name="PropertyName" Type="string" Value="Volume"/>
+																</PropertyList>
+																<ReferenceList>
+																	<Reference Name="ControlInput">
+																		<ObjectRef Name="Game_Scene" ID="{D3237B69-283B-40F6-BCD7-C6ED2E48A795}" WorkUnitID="{3CFFAA83-6595-4163-9422-D8F3EE00F73A}"/>
+																	</Reference>
+																	<Reference Name="Curve">
+																		<Custom>
+																			<Curve Name="" ID="{38E681D3-EBC3-42F8-8B46-CA07480D3A5C}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>-200</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>16.61342</XPos>
+																						<YPos>-200</YPos>
+																						<Flags>0</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>24.28215</XPos>
+																						<YPos>0</YPos>
+																						<Flags>0</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>100</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</RTPC>
+														</ObjectList>
 														<ObjectList Name="Sequences">
 															<MusicTrackSequence Name="" ID="{C6A269D9-26A0-4982-99CC-911B0681EA4A}">
 																<ObjectLists>
@@ -577,39 +784,6 @@
 															<Property Name="TimeMs" Type="Real64" Value="17943.9252336449"/>
 														</PropertyList>
 													</MusicCue>
-												</ObjectList>
-												<ObjectList Name="RTPC">
-													<RTPC Name="" ID="{4CC0B05D-2FAF-4F64-88D3-F0012D986068}" ShortID="987907119">
-														<PropertyList>
-															<Property Name="PropertyName" Type="string" Value="MakeUpGain"/>
-														</PropertyList>
-														<ReferenceList>
-															<Reference Name="ControlInput">
-																<ObjectRef Name="Game_Scene" ID="{D3237B69-283B-40F6-BCD7-C6ED2E48A795}" WorkUnitID="{3CFFAA83-6595-4163-9422-D8F3EE00F73A}"/>
-															</Reference>
-															<Reference Name="Curve">
-																<Custom>
-																	<Curve Name="" ID="{26092FE6-8BC4-40EE-A501-9114929AA7E7}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>-96</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>100</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</Custom>
-															</Reference>
-														</ReferenceList>
-													</RTPC>
 												</ObjectList>
 											</ObjectLists>
 										</MusicSegment>

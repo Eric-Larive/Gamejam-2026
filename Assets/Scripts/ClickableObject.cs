@@ -1,18 +1,26 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class ClickableObject : MonoBehaviour
 {
-    public GameObject spriteOn;
-    public GameObject spriteOff;
-
+    public GameObject[] spriteOn;
+    public GameObject[] spriteOff;
+    public bool wasClicked = false;
+    
     private bool _isOn = true;
 
     public void Toggle()
     {
+        wasClicked = true;
         _isOn = !_isOn;
 
-        spriteOn.SetActive(_isOn);
-        spriteOff.SetActive(!_isOn);
+        foreach (var sprite in spriteOn)
+        {
+            sprite.SetActive(_isOn);
+        }
+        
+        foreach (var sprite in spriteOff)
+        {
+            sprite.SetActive(!_isOn); 
+        }
     }
 }
