@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 179e34418d186c44098442330e87fc16
+guid: 4b933f25b6f4fa24b83c29bda7d7fe2e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7468791356948814887
-    second: consigne2_0
+      213: 3789253103630958081
+    second: cique_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: consigne2_0
+      name: cique_0
       rect:
         serializedVersion: 2
         x: 256
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 72c1174fa2a76a760800000000000000
-      internalID: 7468791356948814887
+      spriteID: 10e38f51f91269430800000000000000
+      internalID: 3789253103630958081
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      consigne2_0: 7468791356948814887
+      cique_0: 3789253103630958081
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
