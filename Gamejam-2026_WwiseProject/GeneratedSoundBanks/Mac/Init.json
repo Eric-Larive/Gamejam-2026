@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{8CBC2CD0-42C0-9F20-AFE8-5201E29BE1BB}",
+    "Hash": "{2F2DD5A7-722A-A4B0-6294-53B49B0A38F2}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -41,9 +41,17 @@
       "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1983675242",
+      "Name": "Game_Scene",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Game_Scene",
+      "GUID": "{D3237B69-283B-40F6-BCD7-C6ED2E48A795}"
+     }
     ]
    }
   ],
-  "FileHash": "{5242C1C7-FE6C-05D8-906A-1A641603B323}"
+  "FileHash": "{E6D0C1B8-41D4-27A5-382B-799350261297}"
  }
 }
