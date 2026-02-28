@@ -4,40 +4,32 @@ public class PathFollower : MonoBehaviour
 {
     public Transform[] waypoints;
     public float speed = 2f;
-    public SceneLoader sceneLoader;
-    public Animator animator; 
+    public GameObject[] toShow;
 
     private int _currentWaypointIndex = 0;
+    private bool _reachDestination = false;
 
     private void Update()
     {
-        if (waypoints.Length == 0) return;
-
+        if (_reachDestination) return;
         Transform target = waypoints[_currentWaypointIndex];
-        Vector3 direction = (target.position - transform.position).normalized;
         transform.position = Vector3.MoveTowards(
             transform.position,
             target.position,
             speed * Time.deltaTime
         );
 
-        // Play animation based on direction
-        if (Mathf.Abs(direction.x) > Mathf.Abs(direction.y))
+        if (Vector3.Distance(transform.position, target.position) < 0.1f)
         {
-            // Horizontal movement
-            animator.Play(direction.x > 0 ? "Right" : "Left");
-        }
-        else
-        {
-            // Vertical movement
-            animator.Play(direction.y > 0 ? "Up" : "Down");
+            _currentWaypointIndex++;
 
-            if (Vector3.Distance(transform.position, target.position) < 0.1f)
+            if (_currentWaypointIndex >= waypoints.Length)
             {
-                _currentWaypointIndex++;
-
-                if (_currentWaypointIndex >= waypoints.Length)
-                    sceneLoader.LoadNextScene();
+                foreach (var gameObjects in toShow)
+                {
+                    gameObjects.SetActive(true);
+                }
+                _reachDestination = true;
             }
         }
     }
