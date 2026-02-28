@@ -6,14 +6,14 @@
   "SoundBankVersion": "172",
   "SoundBanks": [
    {
-    "Id": "2907699443",
+    "Id": "202194903",
     "Type": "Event",
     "GUID": "{5FFE249E-29D2-426D-8477-63C36506953F}",
     "Language": "SFX",
-    "Hash": "{43AC742B-4CF1-00B8-C6DC-2D6C019019B5}",
-    "ObjectPath": "Music_Trigger",
-    "ShortName": "Music_Trigger",
-    "Path": "Event/Music_Trigger.bnk",
+    "Hash": "{2F2C65CA-6698-D25C-12AE-7980E1456BFE}",
+    "ObjectPath": "Music_Play",
+    "ShortName": "Music_Play",
+    "Path": "Event/Music_Play.bnk",
     "Media": [
      {
       "Id": "209647765",
@@ -72,9 +72,9 @@
     ],
     "Events": [
      {
-      "Id": "2907699443",
-      "Name": "Music_Trigger",
-      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Music_Trigger",
+      "Id": "202194903",
+      "Name": "Music_Play",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Music_Play",
       "GUID": "{5FFE249E-29D2-426D-8477-63C36506953F}",
       "DurationType": "Infinite",
       "MediaRefs": [
@@ -98,9 +98,17 @@
        }
       ]
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1983675242",
+      "Name": "Game_Scene",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Game_Scene",
+      "GUID": "{D3237B69-283B-40F6-BCD7-C6ED2E48A795}"
+     }
     ]
    }
   ],
-  "FileHash": "{80F50B0D-796D-5CD3-A6FB-67AFA07D0D57}"
+  "FileHash": "{991DEFDD-190F-6851-AADB-78CB23BE5A6E}"
  }
 }

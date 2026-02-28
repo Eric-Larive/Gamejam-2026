@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	202194903	Music_Play			\Default Work Unit\Music\Music_Play	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1983675242	Game_Scene			\Default Work Unit\Game_Scene	
+

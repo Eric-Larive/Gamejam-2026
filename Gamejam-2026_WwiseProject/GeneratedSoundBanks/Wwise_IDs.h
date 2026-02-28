@@ -13,8 +13,14 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID MUSIC_TRIGGER = 2907699443U;
+        static const AkUniqueID MUSIC_PLAY = 202194903U;
+        static const AkUniqueID MUSIC_STOP = 3227181061U;
     } // namespace EVENTS
+
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID GAME_SCENE = 1983675242U;
+    } // namespace GAME_PARAMETERS
 
     namespace BUSSES
     {
