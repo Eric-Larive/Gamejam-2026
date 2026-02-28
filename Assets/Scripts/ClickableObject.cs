@@ -1,10 +1,9 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class ClickableObject : MonoBehaviour
 {
-    public GameObject spriteOn;
-    public GameObject spriteOff;
+    public GameObject[] spriteOn;
+    public GameObject[] spriteOff;
 
     private bool _isOn = true;
 
@@ -12,7 +11,14 @@ public class ClickableObject : MonoBehaviour
     {
         _isOn = !_isOn;
 
-        spriteOn.SetActive(_isOn);
-        spriteOff.SetActive(!_isOn);
+        foreach (var sprite in spriteOn)
+        {
+            sprite.SetActive(_isOn);
+        }
+        
+        foreach (var sprite in spriteOff)
+        {
+            sprite.SetActive(!_isOn); 
+        }
     }
 }
