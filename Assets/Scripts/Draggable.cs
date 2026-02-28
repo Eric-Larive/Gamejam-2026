@@ -1,34 +1,95 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
-[RequireComponent(typeof(Collider2D))]
-public class Draggable2D : MonoBehaviour
+[RequireComponent(typeof(RectTransform))]
+public class DragClothToCastor : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
-    private Camera cam;
-    private Vector3 offset;
+    [Header("References")]
+    [SerializeField] private Canvas canvas;              // assign your Canvas
+    [SerializeField] private RectTransform castorZone;   // drag the Castor RectTransform here
+    [SerializeField] private Image castorImage;          // drag the Castor Image here
+    [SerializeField] private Sprite castorWithCloth;     // sprite of castor wearing cloth
+
+    [Header("Behavior")]
+    [SerializeField] private bool hideClothOnSuccess = true;
+    [SerializeField] private float snapToZone = 0f; // 0 = no snap, otherwise snaps cloth to zone center
+
+    private RectTransform rect;
+    private CanvasGroup canvasGroup;
+    private Vector3 startLocalPos;
+    private Transform startParent;
 
     void Awake()
     {
-        cam = Camera.main;
-        if (cam == null)
-            Debug.LogError("No MainCamera found. Tag your camera as MainCamera.");
+        rect = GetComponent<RectTransform>();
+        canvasGroup = GetComponent<CanvasGroup>();
+        if (canvasGroup == null) canvasGroup = gameObject.AddComponent<CanvasGroup>();
+
+        if (canvas == null) canvas = GetComponentInParent<Canvas>();
     }
 
-    private Vector3 MouseWorld()
+    public void OnBeginDrag(PointerEventData eventData)
     {
-        Vector3 m = Input.mousePosition;
-        m.z = -cam.transform.position.z;      // distance to z=0 plane (typical 2D)
-        Vector3 w = cam.ScreenToWorldPoint(m);
-        w.z = transform.position.z;           // keep sprite z
-        return w;
+        startLocalPos = rect.localPosition;
+        startParent = rect.parent;
+
+        // Put on top while dragging
+        rect.SetAsLastSibling();
+
+        // Let raycasts pass through cloth while dragging so we can "see" the castor zone
+        canvasGroup.blocksRaycasts = false;
     }
 
-    private void OnMouseDown()
+    public void OnDrag(PointerEventData eventData)
     {
-        offset = transform.position - MouseWorld();
+        // Move by delta (best for UI)
+        rect.anchoredPosition += eventData.delta / canvas.scaleFactor;
     }
 
-    private void OnMouseDrag()
+    public void OnEndDrag(PointerEventData eventData)
     {
-        transform.position = MouseWorld() + offset;
+        canvasGroup.blocksRaycasts = true;
+
+        //bool success = IsOverlapping(rect, castorZone);
+        bool success = RectTransformUtility.RectangleContainsScreenPoint(
+            castorZone,
+            eventData.position,
+            eventData.pressEventCamera
+        );
+
+        if (success)
+        {
+            // Swap castor sprite
+            castorImage.sprite = castorWithCloth;
+
+            // Optionally snap cloth to castor center
+            if (snapToZone > 0f)
+                rect.position = castorZone.position;
+
+            // Hide or reset cloth
+            if (hideClothOnSuccess)
+                gameObject.SetActive(false);
+        }
+        else
+        {
+            // Return cloth to start
+            rect.SetParent(startParent, worldPositionStays: false);
+            rect.localPosition = startLocalPos;
+        }
+    }
+
+    private static bool IsOverlapping(RectTransform a, RectTransform b)
+    {
+        // Works great for Screen Space Overlay canvases
+        return RectTransformUtility.RectangleContainsScreenPoint(
+            b,
+            RectTransformUtility.WorldToScreenPoint(null, a.position),
+            null
+        ) && RectTransformUtility.RectangleContainsScreenPoint(
+            b,
+            RectTransformUtility.WorldToScreenPoint(null, a.TransformPoint(a.rect.min)),
+            null
+        );
     }
 }
