@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f5ddbac6-19f2-4c51-ae30-6e772385f0c4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Gamejam-2026/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Gamejam-2026/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Classroom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Classroom.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Ecole.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Ecole.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ClickableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ClickableObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InputManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InputManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +82,7 @@
       <workItem from="1772240717757" duration="154000" />
       <workItem from="1772240880714" duration="578000" />
       <workItem from="1772242039445" duration="78000" />
-      <workItem from="1772309672525" duration="910000" />
+      <workItem from="1772309672525" duration="3408000" />
     </task>
     <servers />
   </component>

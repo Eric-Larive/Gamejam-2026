@@ -8,5 +8,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 3a3fa69ef97e2bf4398698356051bb30
+  - enabled: 1
+    path: Assets/Scenes/Outside.unity
+    guid: cfc5a50edf8c4c9418825499db4bcfa2
+  - enabled: 1
+    path: Assets/Scenes/Ecole.unity
+    guid: 17fb17da550b83c488e710a2e0a75dc5
+  - enabled: 1
+    path: Assets/Scenes/Classroom.unity
+    guid: 54296e23228380f43b807079b74bf864
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

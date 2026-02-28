@@ -4,11 +4,13 @@ public class ClickableObject : MonoBehaviour
 {
     public GameObject[] spriteOn;
     public GameObject[] spriteOff;
-
+    public bool wasClicked = false;
+    
     private bool _isOn = true;
 
     public void Toggle()
     {
+        wasClicked = true;
         _isOn = !_isOn;
 
         foreach (var sprite in spriteOn)
