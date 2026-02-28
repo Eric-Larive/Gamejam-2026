@@ -7,7 +7,7 @@ public class SceneLoader : MonoBehaviour
     {
         int current = SceneManager.GetActiveScene().buildIndex;
         int total = SceneManager.sceneCountInBuildSettings;
-
+        Debug.Log(total);
         if (current + 1 < total)
         {
             SceneManager.LoadScene(current + 1);
