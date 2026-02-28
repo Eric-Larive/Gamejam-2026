@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 55af3c7918b86954ca0a73c5aac131a3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3289312343693157126
+    second: quebak_0
+  - first:
+      213: -5249122801216095830
+    second: quebak_1
+  - first:
+      213: 2300087269120020374
+    second: quebak_2
+  - first:
+      213: 4474152459493645124
+    second: quebak_3
+  - first:
+      213: 6820964965120637074
+    second: quebak_4
+  - first:
+      213: -3313616977341089691
+    second: quebak_5
+  - first:
+      213: 1805731613585815120
+    second: quebak_6
+  - first:
+      213: -7213472907341969635
+    second: quebak_7
+  - first:
+      213: 2678859797947085141
+    second: quebak_8
+  - first:
+      213: -805137553936290253
+    second: quebak_9
+  - first:
+      213: 6597351459103253782
+    second: quebak_10
+  - first:
+      213: 4505523325061085686
+    second: quebak_11
+  - first:
+      213: -1763285099406197297
+    second: quebak_12
+  - first:
+      213: 2409845096411700915
+    second: quebak_13
+  - first:
+      213: 6083545982862569821
+    second: quebak_14
+  - first:
+      213: 109623150726338183
+    second: quebak_15
+  - first:
+      213: -6706420055106360209
+    second: quebak_16
+  - first:
+      213: -2860105871578882741
+    second: quebak_17
+  - first:
+      213: 7000933610754072684
+    second: quebak_18
+  - first:
+      213: 4286284206725053662
+    second: quebak_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: quebak_0
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 963
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6036329262cf5ad20800000000000000
+      internalID: 3289312343693157126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quebak_1
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 968
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa97c139f9e5727b0800000000000000
+      internalID: -5249122801216095830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quebak_2
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 926
+        width: 116
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69f0c445f2d8bef10800000000000000
+      internalID: 2300087269120020374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quebak_3
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 891
+        width: 15
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b1f03f4f1671e30800000000000000
+      internalID: 4474152459493645124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quebak_4
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 925
+        width: 275
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 298766b2f7fe8ae50800000000000000
+      internalID: 6820964965120637074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quebak_5
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 812
+        width: 24
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56871e75aeaa302d0800000000000000
+      internalID: -3313616977341089691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quebak_6
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 831
+        width: 39
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 056b97bd55f3f0910800000000000000
+      internalID: 1805731613585815120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quebak_7
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 847
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d174af00c9894eb90800000000000000
+      internalID: -7213472907341969635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quebak_8
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 847
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 551f5b30bc83d2520800000000000000
+      internalID: 2678859797947085141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quebak_9
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 779
+        width: 24
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33eec4619a393d4f0800000000000000
+      internalID: -805137553936290253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quebak_10
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 732
+        width: 10
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6152142a2308e8b50800000000000000
+      internalID: 6597351459103253782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quebak_11
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 763
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f9b085c795d68e30800000000000000
+      internalID: 4505523325061085686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quebak_12
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 755
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcd772c5b8d8787e0800000000000000
+      internalID: -1763285099406197297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quebak_13
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 763
+        width: 80
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be1657e85d717120800000000000000
+      internalID: 2409845096411700915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quebak_14
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 723
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d513743e6d81d6450800000000000000
+      internalID: 6083545982862569821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quebak_15
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 724
+        width: 41
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 786d33ebca5758100800000000000000
+      internalID: 109623150726338183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quebak_16
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 729
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c64d4fd720ee2a0800000000000000
+      internalID: -6706420055106360209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quebak_17
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 728
+        width: 40
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d18800ddcde48d0800000000000000
+      internalID: -2860105871578882741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quebak_18
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 731
+        width: 25
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c60e615c600582160800000000000000
+      internalID: 7000933610754072684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quebak_19
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 723
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edcb63cb6c0fb7b30800000000000000
+      internalID: 4286284206725053662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      quebak_0: 3289312343693157126
+      quebak_1: -5249122801216095830
+      quebak_10: 6597351459103253782
+      quebak_11: 4505523325061085686
+      quebak_12: -1763285099406197297
+      quebak_13: 2409845096411700915
+      quebak_14: 6083545982862569821
+      quebak_15: 109623150726338183
+      quebak_16: -6706420055106360209
+      quebak_17: -2860105871578882741
+      quebak_18: 7000933610754072684
+      quebak_19: 4286284206725053662
+      quebak_2: 2300087269120020374
+      quebak_3: 4474152459493645124
+      quebak_4: 6820964965120637074
+      quebak_5: -3313616977341089691
+      quebak_6: 1805731613585815120
+      quebak_7: -7213472907341969635
+      quebak_8: 2678859797947085141
+      quebak_9: -805137553936290253
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
