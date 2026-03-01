@@ -946,7 +946,6 @@ GameObject:
   m_Component:
   - component: {fileID: 361840872}
   - component: {fileID: 361840874}
-  - component: {fileID: 361840873}
   m_Layer: 0
   m_Name: Dialog (1)
   m_TagString: Untagged
@@ -970,19 +969,6 @@ Transform:
   - {fileID: 670713834}
   m_Father: {fileID: 1575212680}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &361840873
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 361840871}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38335e5d4d432364b986dd26572ae342, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::HideDialog
-  delay: 1
 --- !u!212 &361840874
 SpriteRenderer:
   serializedVersion: 2
@@ -1030,7 +1016,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: 4231703742466543479, guid: 48f5ff97b0f0fa545b98a0e95a0c42c7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

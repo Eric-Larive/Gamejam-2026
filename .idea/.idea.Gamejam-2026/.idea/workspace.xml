@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5ddbac6-19f2-4c51-ae30-6e772385f0c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/BusMotor.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Quack.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Track.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MusicPersist.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MusicPersist.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Gamejam-2026/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Gamejam-2026/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Engine.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Engine.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Quack.wav.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Quack.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Quack.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Track.wav.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Track gamejam.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Track gamejam.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/BusMotor.wav.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Classroom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Classroom.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Ecole.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Ecole.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Ending.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Ending.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Help.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Help.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maison.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maison.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maison_With_Dialog.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maison_With_Dialog.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Outside.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Outside.unity" afterDir="false" />
-    </list>
+    <list default="true" id="f5ddbac6-19f2-4c51-ae30-6e772385f0c4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +24,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "Merging main",
+    "git-widget-placeholder": "main",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -100,6 +79,7 @@
       <workItem from="1772309672525" duration="8862000" />
       <workItem from="1772371923021" duration="1782000" />
       <workItem from="1772378895973" duration="3259000" />
+      <workItem from="1772383034554" duration="305000" />
     </task>
     <servers />
   </component>
