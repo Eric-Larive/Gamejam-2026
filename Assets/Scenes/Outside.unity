@@ -1158,7 +1158,7 @@ MonoBehaviour:
   - {fileID: 737320225}
   - {fileID: 159246419}
   - {fileID: 1592752045}
-  speed: 2.5
+  speed: 3
   toShow:
   - {fileID: 1548347830}
 --- !u!95 &849468829
