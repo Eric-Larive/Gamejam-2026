@@ -2,16 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5ddbac6-19f2-4c51-ae30-6e772385f0c4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BusMotor.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Quack.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Track.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MusicPersist.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MusicPersist.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Gamejam-2026/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Gamejam-2026/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Engine.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Engine.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Quack.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Quack.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Quack.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Track.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Track gamejam.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Track gamejam.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/BusMotor.wav.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Classroom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Classroom.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Ecole.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Ecole.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Help.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Help.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Ending.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Ending.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Help.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Help.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maison.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maison.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maison_With_Dialog.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maison_With_Dialog.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu_Old.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu_Old.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maison_With_Dialog.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maison_With_Dialog.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Outside.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Outside.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,16 +39,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "Merging main",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.3.10f1\Editor\Unity.exe" />
@@ -89,7 +99,7 @@
       <workItem from="1772242039445" duration="78000" />
       <workItem from="1772309672525" duration="8862000" />
       <workItem from="1772371923021" duration="1782000" />
-      <workItem from="1772378895973" duration="2640000" />
+      <workItem from="1772378895973" duration="3259000" />
     </task>
     <servers />
   </component>
