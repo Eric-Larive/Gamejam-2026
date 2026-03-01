@@ -12,6 +12,8 @@ public class AnswerButton : MonoBehaviour
 
     [Header("Answer")]
     public bool isCorrect;
+    public GameObject[] toShow;
+    public GameObject[] toHide;
     
     private bool moveSprite;
 
@@ -30,9 +32,18 @@ public class AnswerButton : MonoBehaviour
             moveSprite = false;
 
             if (isCorrect)
-                Debug.Log("Correct answer!");
-            else
-                Debug.Log("Wrong answer!");
+            {
+                sprite.position = new Vector3(0, 0, 0);
+                foreach (var gameObjects in toShow)
+                {
+                    gameObjects.SetActive(true);
+                }
+
+                foreach (var gameObjects in toHide)
+                {
+                    gameObjects.SetActive(false);
+                }
+            }
         }
     }
 
