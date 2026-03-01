@@ -322,6 +322,10 @@ MonoBehaviour:
   - {fileID: 1878718834}
   spriteOff: []
   wasClicked: 0
+  id: 
+  flow: {fileID: 0}
+  message: 
+  dialog: {fileID: 0}
 --- !u!61 &154566965
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -617,6 +621,10 @@ MonoBehaviour:
   spriteOn: []
   spriteOff: []
   wasClicked: 0
+  id: 
+  flow: {fileID: 0}
+  message: 
+  dialog: {fileID: 0}
 --- !u!1 &926127720
 GameObject:
   m_ObjectHideFlags: 0
@@ -730,6 +738,10 @@ MonoBehaviour:
   - {fileID: 84900943}
   - {fileID: 1878718834}
   wasClicked: 0
+  id: 
+  flow: {fileID: 0}
+  message: 
+  dialog: {fileID: 0}
 --- !u!61 &926127724
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -926,6 +938,7 @@ GameObject:
   - component: {fileID: 1299916782}
   - component: {fileID: 1299916781}
   - component: {fileID: 1299916783}
+  - component: {fileID: 1299916784}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1006,7 +1019,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1299916777}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4f65e2c014483a44f876ef39c8fd387b, type: 3}
   m_Name: 
@@ -1022,7 +1035,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1299916777}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 37f6540723a6f454c89ea4db3f100f82, type: 3}
   m_Name: 
@@ -1083,6 +1096,14 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!81 &1299916784
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299916777}
+  m_Enabled: 1
 --- !u!1 &1432235812
 GameObject:
   m_ObjectHideFlags: 0
@@ -1924,6 +1945,10 @@ MonoBehaviour:
   - {fileID: 84900943}
   spriteOff: []
   wasClicked: 0
+  id: 
+  flow: {fileID: 0}
+  message: 
+  dialog: {fileID: 0}
 --- !u!61 &2026868854
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2079,6 +2104,10 @@ MonoBehaviour:
   - {fileID: 199696321}
   spriteOff: []
   wasClicked: 0
+  id: 
+  flow: {fileID: 0}
+  message: 
+  dialog: {fileID: 0}
 --- !u!61 &2117798960
 BoxCollider2D:
   m_ObjectHideFlags: 0
